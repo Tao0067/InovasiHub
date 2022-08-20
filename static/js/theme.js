@@ -1,0 +1,2 @@
+(function($){$(window).on('load',function(){if($('.preloader').length){$('.preloader').fadeOut('slow');}
+if($('.testimonials-slider').length){$('.testimonials-slider').bxSlider({auto:true,controls:true,nextText:'<i class="fas fa-arrow-right"></i>',prevText:'<i class="fas fa-arrow-left"></i>',pause:5000,speed:500,pager:true,pagerCustom:'.testimonials-slider-pager-one'});}});})(jQuery);

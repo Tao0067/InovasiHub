@@ -1,0 +1,1102 @@
+@media (max-width: 360px) {
+  /* Voucher */
+  .voucher__title {
+    font-size: 14px;
+  }
+
+  .voucher__subtitle {
+    font-size: 12px;
+  }
+
+  .voucher__miniTitle {
+    font-size: 10px;
+  }
+
+  .line-after::after {
+    height: 125px;
+  }
+  /* Tutup Voucher */
+}
+@media (max-width: 576px) {
+  :root {
+    --gray: #f2f5f9;
+    --grayTwo: #88949e;
+    --black: #3d4147;
+    --blue: #0cb4fe;
+    --abu-abu: #807f8d;
+    --color-tripay: #0cb4fe;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+
+  .hide-dekstop {
+    display: none;
+  }
+
+  .ball {
+    top: 11px;
+  }
+
+  .information-section,
+  #sidebar,
+  .dash-title,
+  #detailInformation {
+    display: none;
+  }
+  .btn-custom {
+    width: 250px;
+  }
+  .btn-large {
+    width: 300px;
+  }
+  .data__subtitle {
+    font-size: 14px;
+  }
+  .data__title {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .text-danger {
+    font-size: 11px;
+  }
+  .text-primary {
+    font-size: 11px;
+  }
+  .mobile-title-1 {
+    margin-left: 0.5rem;
+  }
+  .mobile-title-2 {
+    margin-left: 1.5rem;
+  }
+  .mobile-title-3 {
+    margin-left: 3rem;
+  }
+  .mobile-title-4 {
+    margin-left: 3.5rem;
+  }
+  .status-mutasi {
+    position: relative;
+    top: -35px;
+    left: 110px;
+  }
+  .produk-status {
+    position: relative;
+    top: -170px;
+    left: 190px;
+  }
+  /* .data-price{
+        margin-left: auto;
+    } */
+  .wrapper {
+    width: 100%;
+    box-sizing: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 3.3rem;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+  .table__pagination ul li {
+    padding-left: 7px;
+  }
+  /* Menu */
+  .col-lg-2 {
+    width: unset;
+  }
+  .col-lg-2 :nth-child(3) {
+    margin-left: auto;
+  }
+  /* Penutup Menu */
+
+  /* Tab Menu*/
+  .color-tab-mobile a.nav-item.nav-link.active {
+    color: var(--blue);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .color-tab-mobile a.nav-item.nav-link.active small {
+    display: block;
+  }
+
+  .color-tab-mobile > ul > li > a {
+    color: #acacac;
+    text-align: center;
+  }
+
+  .color-tab-mobile > ul > li > a small {
+    font-size: 11px;
+    display: none;
+  }
+
+  .box-shape-tab-mobile {
+    box-shadow: 0px 4px 24px 0px rgba(16, 16, 16, 0.08);
+    -webkit-box-shadow: 0px 4px 24px 0px rgba(16, 16, 16, 0.08);
+    -moz-box-shadow: 0px 4px 24px 0px rgba(16, 16, 16, 0.08);
+    background-color: #fff;
+    z-index: 99;
+    padding: 0.2rem 0;
+  }
+
+  /* Penutup tab Menu*/
+
+  /* Menu Mobile */
+  .menu-mobile {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    position: absolute;
+    overflow-y: auto;
+    height: auto;
+  }
+  .menu-mobile li {
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: #d5d5d5 1px solid;
+    width: 95%;
+    max-height: 700px;
+    overflow-y: auto;
+    height: auto;
+  }
+  .menu-mobile li a {
+    color: var(--abu-abu);
+  }
+  /* Penutup Menu Mobile */
+
+  /* Saldo Paypal */
+  .amount-mobile {
+    width: 330px;
+  }
+  /* Penutup Saldo Paypal */
+
+  .mobile-none {
+    display: none;
+  }
+
+  .custom__table-striped tbody tr td {
+    font-size: 12px !important;
+  }
+
+  /* Messages */
+  .diskusi__name {
+    font-size: 14px !important;
+  }
+  .diskusi__date {
+    font-size: 11px !important;
+  }
+  .diskusi__message {
+    font-size: 14px !important;
+  }
+  .bg-reply-message {
+    background-color: #ecf7ff;
+    padding: 10px;
+    border-radius: 5px !important;
+  }
+
+  #messagesModal > .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: 0;
+  }
+
+  #messagesModal > .modal-dialog > .modal-content {
+    height: 100%;
+    border-radius: 0px !important;
+    position: fixed;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: 0;
+    padding: 0;
+  }
+
+  #messagesModal > .modal-dialog > .modal-content > .modal-body {
+    padding: 0;
+  }
+
+  .positionButton {
+    position: fixed;
+    bottom: 40px;
+    left: 25%;
+  }
+
+  .custom__messages-form textarea {
+    border: 0;
+  }
+
+  .custom__messages-form textarea::placeholder {
+    color: var(--grayTwo);
+  }
+
+  .custom__messages-form textarea:focus {
+    box-shadow: none;
+  }
+  /* Penutup Messages */
+
+  .penerima {
+    margin-left: 0;
+  }
+
+  /* Footer */
+  .site-footer {
+    width: 100% !important;
+    float: left;
+    box-sizing: unset;
+    margin-left: -80px;
+  }
+  .footer__title {
+    font-size: 12px;
+  }
+  .footer__slogan {
+    font-size: 11px;
+  }
+
+  /* Penutup footer */
+
+  /* Harga Pulsa */
+  .menu__sub-product-name {
+    margin-top: 20px;
+    font-size: 11px;
+  }
+
+  .menu__sub-product-price-second {
+    font-size: 14px;
+  }
+
+  .menu__sub-product-price {
+    font-size: 14px;
+  }
+  /* Penutup Harga pulsa */
+
+  /** Navbar **/
+  #rightSideWrapper {
+    width: 100%;
+    float: none;
+  }
+
+  .sidebar__logo {
+    height: 22px;
+    width: auto;
+  }
+
+  ul.navbar__icon li {
+    padding-right: 1.1rem;
+    padding-top: 0.3rem;
+  }
+
+  .navbar__custom {
+    background: #fff !important;
+  }
+
+  .navbar__custom-mobile {
+    background: transparent;
+    border-bottom: 1px solid #e3e9f3;
+  }
+
+  /** Penutup Navbar **/
+
+  /** Content **/
+  #bannerCarousel {
+    margin-bottom: 25px;
+  }
+
+  .content__box-balance {
+    margin-bottom: 0px;
+  }
+
+  .content__menu small {
+    font-size: 11px;
+    line-height: 1.2rem;
+    display: inline-block;
+    margin-top: 0.4rem;
+  }
+
+  .content__menu img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .content__title {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+
+  .box__title {
+    margin-top: 1rem;
+    font-size: 16px;
+  }
+
+  .custom__padding {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .content__info {
+    font-size: 14px;
+    line-height: 1.4rem;
+  }
+  /** Penutup Content **/
+
+  /** Deposit **/
+  #deposit .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: 0;
+  }
+
+  #deposit .modal-dialog .modal-content {
+    height: auto;
+    min-height: 40%;
+    border-radius: 25px 25px 0px 0px !important;
+    position: fixed;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: 0;
+    border: none;
+    width: 100%;
+  }
+
+  /** Penutup Deposit **/
+
+  /** Metode Pembayaran **/
+  .card-payment > .card {
+    width: 95px;
+    height: 45px;
+  }
+
+  .card-payment > .card:hover {
+    width: 95px;
+    height: 45px;
+  }
+
+  .card-payment > .card > img {
+    height: 24px;
+    width: auto;
+  }
+  /** Penutup Metode Pembayaran **/
+
+  /** Transfer Saldo **/
+  .text-gray {
+    font-size: 12px;
+  }
+
+  .custom__form label {
+    font-size: 12px;
+  }
+
+  .custom__form .form-group {
+    margin-top: 20px;
+  }
+
+  .custom__form .input-group-prepend button {
+    font-size: 12px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .content__action a {
+    font-size: 12px;
+  }
+
+  .table__color tr td {
+    padding: 1.2rem;
+  }
+  /** Penutup Transfer Saldo **/
+
+  /** Data not found **/
+  .data__not-found {
+    font-size: 14px;
+  }
+  /** Penutup Data not found **/
+
+  /** Referral **/
+  .referral__img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .smGlobalBtn {
+    /* global button class */
+    margin-top: 1rem;
+  }
+  /** Penutup Referral **/
+
+  /** Membership **/
+  .membership__img {
+    width: 90px;
+    height: 90px;
+    margin-top: 2rem;
+  }
+
+  .membership__name {
+    font-size: 16px;
+  }
+
+  .membership__title {
+    font-size: 11px;
+  }
+
+  .badge-green {
+    font-size: 11px;
+  }
+
+  .badge-orange {
+    font-size: 11px;
+  }
+
+  .badge-red {
+    font-size: 11px;
+  }
+  /** Penutup Membership **/
+
+  /** Redeem Voucher **/
+  .voucher__img {
+    width: 65px;
+    height: 65px;
+    margin-top: 1rem;
+  }
+  /** Penutup Redeem Voucher **/
+
+  /** Profile **/
+  .box-mobile {
+    background: #fff;
+    border-radius: 12px;
+  }
+
+  .arrow-right {
+    color: #a7afce;
+  }
+
+  .circle-icon {
+    background-color: #eef0f6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    line-height: 2.4em;
+  }
+
+  .circle-icon-red {
+    background-color: #ffd7d7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    line-height: 2.4em;
+  }
+
+  .circle-icon .feather {
+    stroke: #a7afce;
+    width: 20px;
+    height: 20px;
+  }
+
+  .circle-icon-red .feather {
+    stroke: #ff4242;
+    width: 20px;
+    height: 20px;
+  }
+
+  .text-red {
+    color: #ff4242 !important;
+  }
+
+  .paypal-icon {
+    color: #a7afce;
+    padding-top: 0.7rem;
+  }
+
+  .profile__logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profile__title {
+    font-size: 14px;
+    color: var(--black);
+  }
+
+  .profile__menu ul li {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .profile__menu ul li a {
+    text-decoration: none;
+  }
+
+  .btn-outline-blue {
+    font-size: 12px;
+  }
+
+  .custom__form-two label {
+    font-size: 12px;
+  }
+
+  .api__tab li .nav-link {
+    font-size: 14px;
+    color: var(--grayTwo);
+  }
+
+  .api__tab-custom button.btn-link {
+    font-size: 14px;
+  }
+  /** Penutup Profile **/
+
+  /** Sidebar **/
+  .menu-wrap .menu-sidebar ul {
+    padding-left: 0;
+  }
+
+  .menu-wrap .menu-sidebar ul li {
+    list-style: none;
+    padding-left: 0;
+    background: transparent;
+  }
+
+  .menu-wrap .menu-sidebar {
+    margin-top: 3.5rem;
+  }
+
+  .menu-wrap {
+    background-color: #141419;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin-right: -100%;
+    font-size: 14px;
+    overflow: auto;
+    transition: 0.25s;
+    z-index: 10;
+    right: 0;
+  }
+
+  .menu-show {
+    margin-right: 0;
+    box-shadow: 4px 2px 15px 1px #b9adad;
+    right: 0;
+  }
+
+  .menu-sidebar {
+    margin: 75px 0 80px 10px;
+    position: relative;
+  }
+
+  .menu-sidebar li {
+    padding: 0 1rem 0rem 1rem;
+  }
+
+  .menu-sidebar li > a {
+    color: #a9a9ab;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .toggle-button {
+    transition: 0.25s;
+    position: fixed;
+    z-index: 15;
+    width: 24px;
+    height: 24px;
+  }
+
+  .toggle-button:hover {
+    cursor: pointer;
+  }
+
+  .toggle-button .menu-bar {
+    border-radius: 2px;
+    transition: 0.5s;
+    width: 80%;
+  }
+
+  .toggle-button .menu-bar-top {
+    border: 3px solid #88949e;
+    border-bottom: none;
+    margin-top: 0.2rem;
+  }
+
+  .toggle-button .menu-bar-middle {
+    height: 3px;
+    background-color: #88949e;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .toggle-button .menu-bar-bottom {
+    border: 3px solid #88949e;
+    border-top: none;
+  }
+
+  .button-open .menu-bar-top {
+    border-color: #fff;
+    transform: rotate(45deg) translate(8px, 8px);
+    transition: 0.5s;
+  }
+
+  .button-open .menu-bar-middle {
+    background-color: #fff;
+    transform: translate(230px);
+    transition: 0.1s ease-in;
+    opacity: 0;
+  }
+
+  .button-open .menu-bar-bottom {
+    border-color: #fff;
+    transform: rotate(-45deg) translate(2px, -2px);
+    transition: 0.5s;
+  }
+
+  .submenu__mobile-2 {
+    display: none;
+  }
+
+  ul.submenu__mobile-2 li {
+    padding-left: 1.5rem !important;
+  }
+
+  .back__button-mobile {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    display: none;
+  }
+  /** Penutup Sidebar **/
+
+  /** Profile - Rekening Bank **/
+  .select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    width: 0 !important;
+  }
+  /** End **/
+
+  /** Login **/
+  .padding-mobile {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /** Messages Baru **/
+  .custom__table-striped-v2 tbody tr td {
+    padding: 20px;
+  }
+
+  /** Baru **/
+
+  /* sidebar Mobile */
+  .list-group-item + .list-group-item.active {
+    border-top-width: none !important;
+  }
+  .sidebar__menu ul li.active {
+    background: none !important;
+    color: var(--blue);
+    border-right: none !important;
+  }
+  .list-group-item.active {
+    border-top-width: none !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991.98px) {
+  .hide-mobile {
+    display: block;
+  }
+
+  .hide-dekstop {
+    display: none;
+  }
+
+  .information-section,
+  #sidebar,
+  .dash-title,
+  #detailInformation {
+    display: none;
+  }
+  .btn-custom {
+    width: 250px;
+  }
+  .btn-large {
+    width: 300px;
+  }
+  .data__subtitle {
+    font-size: 14px;
+  }
+  .data__title {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .text-danger {
+    font-size: 11px;
+  }
+  .text-primary {
+    font-size: 11px;
+  }
+  .mobile-title-1 {
+    margin-left: 0.5rem;
+  }
+  .mobile-title-2 {
+    margin-left: 1.5rem;
+  }
+  .mobile-title-3 {
+    margin-left: 3rem;
+  }
+  .mobile-title-4 {
+    margin-left: 3.5rem;
+  }
+  .status-mutasi {
+    position: relative;
+    top: -100px;
+    left: 80px;
+  }
+  .produk-status {
+    position: relative;
+    top: -170px;
+    left: 190px;
+  }
+  /* .data-price{
+        margin-left: auto;
+    } */
+  .wrapper {
+    width: 100%;
+    box-sizing: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 3.3rem;
+  }
+
+  .navbar-brand {
+    display: block;
+  }
+  .table__pagination ul li {
+    padding-left: 7px;
+  }
+  /* Menu */
+  .col-lg-2 {
+    width: unset;
+  }
+  .col-lg-2 :nth-child(3) {
+    margin-left: auto;
+  }
+
+  /* Tab Menu*/
+  .color-tab-mobile a.nav-item.nav-link.active {
+    color: var(--blue);
+  }
+
+  .color-tab-mobile a.nav-item.nav-link.active small {
+    display: block;
+  }
+
+  .color-tab-mobile > ul > li > a {
+    color: #acacac;
+    text-align: center;
+  }
+
+  .color-tab-mobile > ul > li > a small {
+    font-size: 11px;
+    display: none;
+  }
+
+  .box-shape-tab-mobile {
+    box-shadow: 0px 4px 24px 0px rgba(16, 16, 16, 0.08);
+    -webkit-box-shadow: 0px 4px 24px 0px rgba(16, 16, 16, 0.08);
+    -moz-box-shadow: 0px 4px 24px 0px rgba(16, 16, 16, 0.08);
+    background-color: #fff;
+    z-index: 99;
+    padding: 0.2rem 0;
+  }
+
+  /* Penutup tab Menu*/
+
+  /** Navbar **/
+  #rightSideWrapper {
+    width: 100%;
+    float: none;
+  }
+
+  .sidebar__logo {
+    height: 22px;
+    width: auto;
+  }
+
+  ul.navbar__icon li {
+    padding-right: 1.1rem;
+    padding-top: 0.3rem;
+  }
+
+  .navbar__custom {
+    background: #fff !important;
+  }
+
+  .navbar__custom-mobile {
+    background: transparent;
+    border-bottom: 1px solid #e3e9f3;
+  }
+
+  /** Penutup Navbar **/
+
+  /** Sidebar **/
+  .menu-wrap .menu-sidebar ul {
+    padding-left: 0;
+  }
+
+  .menu-wrap .menu-sidebar ul li {
+    list-style: none;
+    padding-left: 0;
+    background: transparent;
+  }
+
+  .menu-wrap .menu-sidebar {
+    margin-top: 3.5rem;
+  }
+
+  .menu-wrap {
+    background-color: #141419;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin-right: -100%;
+    font-size: 14px;
+    overflow: auto;
+    transition: 0.25s;
+    z-index: 10;
+    right: 0;
+  }
+
+  .menu-show {
+    margin-right: 0;
+    box-shadow: 4px 2px 15px 1px #b9adad;
+    right: 0;
+  }
+
+  .menu-sidebar {
+    margin: 75px 0 80px 10px;
+    position: relative;
+  }
+
+  .menu-sidebar li {
+    padding: 0 1rem 0rem 1rem;
+  }
+
+  .menu-sidebar li > a {
+    color: #a9a9ab;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .toggle-button {
+    transition: 0.25s;
+    position: fixed;
+    z-index: 15;
+    width: 24px;
+    height: 24px;
+  }
+
+  .toggle-button:hover {
+    cursor: pointer;
+  }
+
+  .toggle-button .menu-bar {
+    border-radius: 2px;
+    transition: 0.5s;
+    width: 80%;
+  }
+
+  .toggle-button .menu-bar-top {
+    border: 3px solid #88949e;
+    border-bottom: none;
+    margin-top: 0.2rem;
+  }
+
+  .toggle-button .menu-bar-middle {
+    height: 3px;
+    background-color: #88949e;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .toggle-button .menu-bar-bottom {
+    border: 3px solid #88949e;
+    border-top: none;
+  }
+
+  .button-open .menu-bar-top {
+    border-color: #fff;
+    transform: rotate(45deg) translate(8px, 8px);
+    transition: 0.5s;
+  }
+
+  .button-open .menu-bar-middle {
+    background-color: #fff;
+    transform: translate(230px);
+    transition: 0.1s ease-in;
+    opacity: 0;
+  }
+
+  .button-open .menu-bar-bottom {
+    border-color: #fff;
+    transform: rotate(-45deg) translate(2px, -2px);
+    transition: 0.5s;
+  }
+
+  .submenu__mobile-2 {
+    display: none;
+  }
+
+  ul.submenu__mobile-2 li {
+    padding-left: 1.5rem !important;
+  }
+
+  .back__button-mobile {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    display: none;
+  }
+  /** Penutup Sidebar **/
+
+  /** Footer **/
+  .site-footer {
+    width: 100% !important;
+    float: left;
+    box-sizing: unset;
+    margin-left: -180px;
+  }
+  /** Penutup Footer **/
+
+  /** Profile **/
+  .box-mobile {
+    background: #fff;
+    border-radius: 12px;
+  }
+
+  .arrow-right {
+    color: #a7afce;
+  }
+
+  .circle-icon {
+    background-color: #eef0f6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    line-height: 2.4em;
+  }
+
+  .circle-icon-red {
+    background-color: #ffd7d7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    line-height: 2.4em;
+  }
+
+  .circle-icon .feather {
+    stroke: #a7afce;
+    width: 20px;
+    height: 20px;
+  }
+
+  .circle-icon-red .feather {
+    stroke: #ff4242;
+    width: 20px;
+    height: 20px;
+  }
+
+  .text-red {
+    color: #ff4242 !important;
+  }
+
+  .paypal-icon {
+    color: #a7afce;
+    padding-top: 0.7rem;
+  }
+
+  .profile__logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .profile__title {
+    font-size: 14px;
+    color: var(--black);
+  }
+
+  .profile__menu ul li {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .profile__menu ul li a {
+    text-decoration: none;
+  }
+
+  .btn-outline-blue {
+    font-size: 12px;
+  }
+
+  .custom__form-two label {
+    font-size: 12px;
+  }
+
+  .api__tab li .nav-link {
+    font-size: 14px;
+    color: var(--grayTwo);
+  }
+
+  .api__tab-custom button.btn-link {
+    font-size: 14px;
+  }
+  /** Penutup Profile **/
+
+  /** Baru **/
+
+  /* sidebar Mobile */
+  /* sidebar Mobile */
+  .list-group-item.active {
+    border-top-width: none !important;
+  }
+  .list-group-item + .list-group-item.active {
+    border-top-width: none !important;
+  }
+  .sidebar__menu ul li.active {
+    background: none !important;
+    color: var(--blue);
+    border-right: none !important;
+  }
+}

@@ -1,0 +1,474 @@
+
+/** Terpisah **/
+@media(max-width: 576px){
+
+    /* Navbar */
+    .navbar-brand img{
+      height: 20px;
+      width: auto;
+    }
+
+    .navbar-collapse{
+      background: #2E3452;
+      z-index: 3;
+    }
+
+    .navbar__remake .navbar-nav .nav-link{
+      color: #fff;
+      padding-top: 1rem;
+    }
+
+    .navbar__menu ul{
+      padding-left: 3em;
+    }
+
+
+    .navbar__menu {
+        padding: 1em;
+    }
+
+    .menu__mobile{
+      margin-top: -2rem;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(86,193,255)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    a.btn__register{
+      display: block;
+      color: #fff !important;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1em;
+      padding-left: 0;
+      border-radius: 0;
+      -webkit-transition: all .4s ease;
+      transition: all .4s ease;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: none;
+    }
+    /* Penutup Navbar */
+
+
+    /* Index */
+    .judul{
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    
+    .judul h1{
+      font-size: 20px;
+    }
+    
+    .judul h6{
+      font-size: 12px;
+      line-height: 1.4rem;
+    }
+
+    .bg{
+      height: 260px;
+      padding-bottom: 2rem;
+    }
+
+    .menu{
+      margin-top: 2rem;
+    }
+
+
+    .menu__margin ul li img{
+      width: 35px;
+      height: 35px;
+    }
+
+    .menu__title{
+      font-size: 12px;
+    }
+
+    .menu__second-title{
+      font-size: 14px;
+    }
+
+    .menu__form label{
+      font-size: 12px;
+    }
+
+    .menu__sub-product-name{
+      font-size: 12px;
+      margin-top: 0.4rem;
+    }
+    
+    .menu__sub-product-price{
+      font-size: 14px;
+    }
+
+    .block__title{
+      font-size: 18px;
+    }
+
+    .about p.about__text{
+      font-size: 14px;
+      margin-top: 1rem;
+    }
+
+    .custom__card .card{
+      margin-top: 1rem;
+    }
+    
+    .custom__card .icon{
+      width: 60px;
+      height: 60px;
+      margin: 20px 20px 0px 20px;
+    }
+    
+    .custom__card h5{
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    p.card-text{
+      font-size: 12px;
+    }
+
+
+    .testimonials-style-one {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    .testimonial__tanggapan{
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--black);
+      margin-bottom: 1rem;
+    }
+
+    .testimonials-style-one .single-testi-one p {
+      font-size: 14px;
+    }
+    .testimonials-style-one .single-testi-one h3 {
+      font-size: 16px;
+    }
+
+    .testimonials-slider-pager-one a img{
+      height: 250px;
+    }
+
+    #testimonials-slider-pager .testi-icon {
+      width: 49px;
+      height: 49px;
+      left: 35px;
+    }
+
+    #testimonials-slider-pager .testi-icon:after, #testimonials-slider-pager .testi-icon:before {
+      width: 49px;
+      height: 49px;
+    }
+
+    #testimonials-slider-pager {
+      width: 320px;
+      height: 320px;
+      margin-top: -110px;
+    }
+
+    .payment__logo{
+      height: 100%;
+      max-height: 20px;
+      margin: 15px;
+    }
+
+    .faq{
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+    
+    .faq h6{
+      font-size: 14px;
+      margin-top: 0.5rem;
+    }
+    
+    .faq__accordion h5 button{
+      font-size: 14px;
+    }
+
+    .btn__icon{
+      font-size: 14px;
+    }
+
+    .contac__form input::placeholder{
+      font-size: 12px;
+    }
+
+    .contac__img img{
+      width: 28px;
+      height: 28px;
+    }
+    
+    .contac__information-title{
+      font-size: 14px;
+    }
+    
+    .contac__information-subtitle{
+      font-size: 12px;
+    }
+    
+    .navbar__footer .navbar-brand{
+      font-size: 14px;
+    }
+
+    .navbar__footer ul.custom__position-footer{
+      flex-direction: row;
+      padding-right: 0.6rem;
+      text-align: center;
+    }
+
+    .navbar__footer ul.custom__position-footerTwo{
+      flex-direction: row;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .navbar__footer ul.custom__position-footerTwo li{
+      padding-right: 1rem;
+    }
+    /* Penutup Index */
+
+    
+    /* Web Pulsa */
+    h6.subtitle__webPulsa{
+      line-height: 1.4rem;
+      margin-top: 1rem;
+    }
+    
+    .keterangan{
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+
+    
+    .keterangan__text{
+      font-size: 14px;
+      margin-top: 1rem;
+      line-height: 2em;
+    }
+
+    .keunggulan h6{
+      font-size: 14px;
+    }
+
+    .tag__line{
+      background-image: url(../image//bg/Rectangle\ 49.png);
+      height: 100px;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+    
+    .tag__line h1{
+      color: var(--black);
+      font-weight: 600;
+      font-size: 20px;
+      text-align: center;
+      padding-top: 1.5rem;
+    }
+    /* Penutup Web Pulsa */
+
+
+    /* Panduan */
+    p.start__text{
+      font-size: 14px;
+      color: var(--gray);
+    }
+
+    .tutorialTwo{
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+
+    .tutorial{
+      margin-top: 8rem;
+      margin-bottom: 4rem;
+    }
+    
+    .smallTitle{
+      font-size: 16px;
+    }
+
+    .level__title{
+      font-size: 16px;
+    }
+    
+    .level__list li{
+      font-size: 14px;
+    }
+
+    .level__list li:before{
+      font-size: 14px;
+      margin-right: 0.6rem;
+  }
+    /* Penutup Panduan */
+
+
+    /* Harga Produk */
+    .product__name{
+      font-size: 16px;
+    }
+    /* Penutup Harga Produk */
+
+
+    /* Tentang Kami */
+    .content{
+      margin-top: 6rem;
+      margin-bottom: 4rem;
+    }
+    
+    .content p{
+      font-size: 14px;
+    }
+    /* Penutup Tentang Kami */
+
+
+    /* API Pulsa */
+    .api__tab li .nav-link{
+      font-size: 14px;
+      color: var(--gray);
+    }
+
+    .api__tab-custom button.btn-link{
+      color: var(--black);
+      font-size: 12px;
+    }
+    /* Penutup API Pulsa */
+
+    /* Icon Footer */
+      .navbar__social-media li a i{
+        font-size: 20px;
+      }
+    /* Penutup Icon Footer */
+
+    
+    /* Whatsapp */
+    .fabs {
+      right: 30px;
+    }
+    /* Penutup Whatstapp */
+
+
+    /* Button */
+    #button {
+      right: 35px;
+    }
+    /* Penutup Button */
+
+
+    /** Modal Login **/ 
+    .modal__custom .modal-dialog > .modal-content, #daftarModal > .modal-dialog > .modal-content{
+      width: 85%;
+    }
+    
+      /* sidebar Mobile */
+    .list-group-item+ .list-group-item.active{
+        border-top-width:none !important; 
+    }
+    .sidebar__menu ul li.active{
+        background: none !important;
+        color: var(--blue);
+        border-right: none !important;
+    }
+    .list-group-item.active{
+         border-top-width:none !important; 
+     }
+
+}
+/** Penutup Terpisah **/
+
+
+/** Saldo Paypal **/
+@media(max-width: 576px){
+  .paypal__title{
+    font-size: 25px;
+  }
+
+  .paypal__subtitle{
+    font-size: 14px;
+    line-height: 1.8rem;
+  }
+
+  .text__title{
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+
+  .text__subtitle{
+    font-size: 14px;
+    margin-top: 0.5rem;
+  }
+  
+  .amount__Dollar{
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .amount__IDR{
+    color: var(--gray);
+    font-size: 12px;
+    margin-top: 0.1rem;
+  }
+  
+  .amount__Keterangan{
+    font-size: 14px;
+    padding-right: 0.4rem;
+    padding-left: 2rem;
+  }
+
+  .calculator__total .first{
+    font-size: 16px;
+  }
+  
+  .calculator__total .second{
+    font-size: 34px;
+  }
+
+  .calculator__title{
+    font-size: 14px;
+  }
+
+  .calculator__rate{
+    font-size: 16px;
+  }
+
+  .excellence{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  
+  .custom__margin{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  ul.navbar__social-media{
+    flex-direction: row;
+  }
+  
+  ul.navbar__social-media li{
+    padding-left: 1rem;
+  }
+
+      /* sidebar Mobile */
+    .list-group-item+ .list-group-item.active{
+        border-top-width:none !important; 
+    }
+    .sidebar__menu ul li.active{
+        background: none !important;
+        color: var(--blue);
+        border-right: none !important;
+    }
+    .list-group-item.active{
+         border-top-width:none !important; 
+     }
+
+}
+/** Penutup Saldo Paypal **/
