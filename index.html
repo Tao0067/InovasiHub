@@ -523,21 +523,7 @@
                             Email
                         </div>
                         <div class="contac__information-subtitle">
-                            <a href="email-protection.html" class="__cf_email__"
-                               data-cfemail="fc9f8fbc888e958c9d85d29f93d29598">[email&#160;protected]</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex mt-4">
-                    <div class="contac__img">
-                        <img src="static/picture/phone.png">
-                    </div>
-                    <div class="flex-column">
-                        <div class="contac__information-title">
-                            Hotline Kami
-                        </div>
-                        <div class="contac__information-subtitle">
-                            +6282234444413
+                            cs@inovasihub.info
                         </div>
                     </div>
                 </div>
@@ -627,26 +613,6 @@
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
-    });
-
-    $(document).on('click', '#chat-cs .send-chat', function () {
-        $chat = $("#chat-cs");
-        var message = $chat.find('[data-id="message"]').val();
-        var cs_wa = '+6282234444413';
-
-        if (message.length <= 0) {
-            alert("Silahkan masukkan pesan Anda");
-            return false;
-        }
-
-        if (cs_wa.length <= 0) {
-            alert("Ada kesalahan! Silahkan reload halaman dan coba lagi");
-            return false;
-        }
-
-        var wa_url = 'https://api.whatsapp.com/send?phone=' + encodeURIComponent(cs_wa.replace(/\+|\-|\s/g, '')) + '&text=' + encodeURIComponent(message);
-
-        window.open(wa_url, '_blank');
     });
 
 </script>
